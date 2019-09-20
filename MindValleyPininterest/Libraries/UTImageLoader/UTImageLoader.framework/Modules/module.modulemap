@@ -1,0 +1,11 @@
+framework module UTImageLoader {
+  umbrella header "UTImageLoader.h"
+
+  export *
+  module * { export * }
+}
+
+module UTImageLoader.Swift {
+    header "UTImageLoader-Swift.h"
+    requires objc
+}

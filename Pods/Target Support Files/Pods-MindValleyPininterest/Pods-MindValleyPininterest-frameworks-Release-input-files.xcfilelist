@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-MindValleyPininterest/Pods-MindValleyPininterest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

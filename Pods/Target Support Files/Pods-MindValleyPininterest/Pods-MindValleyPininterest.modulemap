@@ -1,0 +1,6 @@
+framework module Pods_MindValleyPininterest {
+  umbrella header "Pods-MindValleyPininterest-umbrella.h"
+
+  export *
+  module * { export * }
+}

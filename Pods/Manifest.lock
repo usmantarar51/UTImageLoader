@@ -1,0 +1,20 @@
+PODS:
+  - ObjectMapper (3.5.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - ObjectMapper
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjectMapper
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 8aedfd21f4329e17eb942c952787e02d7dee57bf
+
+COCOAPODS: 1.7.2
