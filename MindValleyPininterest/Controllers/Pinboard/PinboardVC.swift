@@ -18,6 +18,7 @@ class PinboardVC: UIViewController { // Generalization of task controller
     
     internal var content = [BaseRowModel<BaseClass>]() // Signle array containg data for collectionView internal so can be protect while accessable to child class
     var refresher: UIRefreshControl!
+    let baseclassLoader = BaseclassLoader()
     
     // MARK: LifeCycle of controller
     
@@ -31,11 +32,13 @@ class PinboardVC: UIViewController { // Generalization of task controller
     // MARK: Utility functions
     
     @objc func loadData() {
-        if let rowModels = BaseClass().generateRowModelsFrom() {
-            content.removeAll()
-            content.append(contentsOf: rowModels)
-            stopRefresher()
-            collectionView.reloadData()
+        baseclassLoader.generateRowModels { result in
+         if let rowModels = result {
+                content.removeAll()
+                content.append(contentsOf: rowModels)
+                stopRefresher()
+                collectionView.reloadData()
+            }
         }
     }
     
