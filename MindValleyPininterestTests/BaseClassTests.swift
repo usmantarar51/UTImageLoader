@@ -32,13 +32,13 @@ class BaseClassTests: XCTestCase {
     }
 
     func testBaseclassInit() {
-        let baseClassArray = BaseClass().generateRowModelsFrom()
+        let expectation = XCTestExpectation(description: "row models generated")
         
-        guard let array = baseClassArray else {
-            XCTFail()
-            return
+        let _ = BaseclassLoader().generateRowModels { (array) in
+            XCTAssertNotNil(array)
+            expectation.fulfill()
         }
         
-        XCTAssertNotNil(array)
+        wait(for: [expectation], timeout: 5.0)
     }
 }

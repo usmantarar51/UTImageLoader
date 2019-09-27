@@ -1,12 +1,12 @@
 //
-//  UTImageLoader.h
+//  UTDiskCache.swift
 //  UTImageLoader
 //
-//  Created by Muhammad Usman Tarar on 9/20/19.
+//  Created by Muhammad Usman Tarar on 9/19/19.
 //  Copyright © 2019 Usman Tarar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for UTImageLoader.
 FOUNDATION_EXPORT double UTImageLoaderVersionNumber;

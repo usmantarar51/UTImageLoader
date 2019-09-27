@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC242BC233EAC9200328743 /* BaseclassLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC242BB233EAC9200328743 /* BaseclassLoader.swift */; };
+		3AC242BE233EAD2C00328743 /* UTImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC242BD233EAD2C00328743 /* UTImageLoader.framework */; };
+		3AC242BF233EAD4500328743 /* UTImageLoader.framework in Resources */ = {isa = PBXBuildFile; fileRef = 3AC242BD233EAD2C00328743 /* UTImageLoader.framework */; };
+		3AC242C0233EAD8700328743 /* UTImageLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC242BD233EAD2C00328743 /* UTImageLoader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6864CBB32334ED740001FBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6864CBB22334ED740001FBE0 /* AppDelegate.swift */; };
 		6864CBB82334ED740001FBE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6864CBB62334ED740001FBE0 /* Main.storyboard */; };
 		6864CBBA2334ED740001FBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6864CBB92334ED740001FBE0 /* Assets.xcassets */; };
@@ -14,7 +18,6 @@
 		6864CBC82334ED750001FBE0 /* MindValleyPininterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6864CBC72334ED750001FBE0 /* MindValleyPininterestTests.swift */; };
 		6864CBD32334ED750001FBE0 /* MindValleyPininterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6864CBD22334ED750001FBE0 /* MindValleyPininterestUITests.swift */; };
 		68C9915E2334FE3D00F8858C /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9915A2334FE3D00F8858C /* BaseCollectionViewCell.swift */; };
-		68C991652334FF0400F8858C /* UTImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C991642334FF0400F8858C /* UTImageLoader.framework */; };
 		68C991692334FF5B00F8858C /* BaseRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C991672334FF5B00F8858C /* BaseRowModel.swift */; };
 		68C991722335015C00F8858C /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9916C2335015C00F8858C /* BaseClass.swift */; };
 		68C991732335015C00F8858C /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9916D2335015C00F8858C /* Url.swift */; };
@@ -28,8 +31,6 @@
 		68C991802335040500F8858C /* PinboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9917F2335040500F8858C /* PinboardVC.swift */; };
 		68C991852335051E00F8858C /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C991832335051E00F8858C /* BoardCollectionViewCell.swift */; };
 		68C991862335051E00F8858C /* BoardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C991842335051E00F8858C /* BoardCollectionViewCell.xib */; };
-		68C9918823350DA400F8858C /* UTImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C991642334FF0400F8858C /* UTImageLoader.framework */; };
-		68C9918923350DA400F8858C /* UTImageLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68C991642334FF0400F8858C /* UTImageLoader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		68C9918B233510C800F8858C /* data.json in Sources */ = {isa = PBXBuildFile; fileRef = 68C9918723350CAD00F8858C /* data.json */; };
 		68C9918C233510DF00F8858C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 68C9918723350CAD00F8858C /* data.json */; };
 		68C9918E23351C1F00F8858C /* PinboardVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9918D23351C1F00F8858C /* PinboardVCTests.swift */; };
@@ -61,7 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				68C9918923350DA400F8858C /* UTImageLoader.framework in Embed Frameworks */,
+				3AC242C0233EAD8700328743 /* UTImageLoader.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +71,8 @@
 
 /* Begin PBXFileReference section */
 		372BDD0AC058387C23117D32 /* Pods_MindValleyPininterest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleyPininterest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC242BB233EAC9200328743 /* BaseclassLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseclassLoader.swift; sourceTree = "<group>"; };
+		3AC242BD233EAD2C00328743 /* UTImageLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTImageLoader.framework; sourceTree = "<group>"; };
 		5AD883618F45AF4DCAC41706 /* Pods-MindValleyPininterest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyPininterest.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyPininterest/Pods-MindValleyPininterest.debug.xcconfig"; sourceTree = "<group>"; };
 		6864CBAF2334ED740001FBE0 /* MindValleyPininterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindValleyPininterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6864CBB22334ED740001FBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +87,6 @@
 		6864CBD22334ED750001FBE0 /* MindValleyPininterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyPininterestUITests.swift; sourceTree = "<group>"; };
 		6864CBD42334ED750001FBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68C9915A2334FE3D00F8858C /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		68C991642334FF0400F8858C /* UTImageLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTImageLoader.framework; sourceTree = "<group>"; };
 		68C991672334FF5B00F8858C /* BaseRowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRowModel.swift; sourceTree = "<group>"; };
 		68C9916C2335015C00F8858C /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
 		68C9916D2335015C00F8858C /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
@@ -109,8 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C991652334FF0400F8858C /* UTImageLoader.framework in Frameworks */,
-				68C9918823350DA400F8858C /* UTImageLoader.framework in Frameworks */,
+				3AC242BE233EAD2C00328743 /* UTImageLoader.framework in Frameworks */,
 				946281F536DCD7AAD227F61A /* Pods_MindValleyPininterest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +139,14 @@
 				372BDD0AC058387C23117D32 /* Pods_MindValleyPininterest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AC242BA233EAC9200328743 /* DataLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				3AC242BB233EAC9200328743 /* BaseclassLoader.swift */,
+			);
+			path = DataLoaders;
 			sourceTree = "<group>";
 		};
 		6864CBA62334ED740001FBE0 = {
@@ -217,6 +226,7 @@
 		68C991482334FD4C00F8858C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3AC242BA233EAC9200328743 /* DataLoaders */,
 				68C991662334FF5B00F8858C /* BaseRowModel */,
 				68C9916B2335013800F8858C /* DataModels */,
 			);
@@ -286,7 +296,7 @@
 		68C991632334FEF900F8858C /* UTImageLoader */ = {
 			isa = PBXGroup;
 			children = (
-				68C991642334FF0400F8858C /* UTImageLoader.framework */,
+				3AC242BD233EAD2C00328743 /* UTImageLoader.framework */,
 			);
 			path = UTImageLoader;
 			sourceTree = "<group>";
@@ -454,6 +464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC242BF233EAD4500328743 /* UTImageLoader.framework in Resources */,
 				68C9918C233510DF00F8858C /* data.json in Resources */,
 				68C991862335051E00F8858C /* BoardCollectionViewCell.xib in Resources */,
 				6864CBBD2334ED740001FBE0 /* LaunchScreen.storyboard in Resources */,
@@ -533,6 +544,7 @@
 				68C991722335015C00F8858C /* BaseClass.swift in Sources */,
 				68C991802335040500F8858C /* PinboardVC.swift in Sources */,
 				68C991852335051E00F8858C /* BoardCollectionViewCell.swift in Sources */,
+				3AC242BC233EAC9200328743 /* BaseclassLoader.swift in Sources */,
 				68C991742335015C00F8858C /* Category.swift in Sources */,
 				68C9917C2335032000F8858C /* UIViewController.swift in Sources */,
 				6864CBB32334ED740001FBE0 /* AppDelegate.swift in Sources */,
@@ -718,6 +730,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -744,6 +757,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
